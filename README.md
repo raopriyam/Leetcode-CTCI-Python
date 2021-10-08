@@ -1,2 +1,3 @@
 # Leetcode-Python
-adding the python leetcode problem solutions in this repositories.
+adding the python leetcode problem solutions in this repositories. 
+The code files are here.
