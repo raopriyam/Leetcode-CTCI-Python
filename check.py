@@ -16,3 +16,4 @@ else:
         n2 = n3
         count = count + 1
         print(n3)
+        print(n3)
