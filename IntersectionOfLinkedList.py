@@ -28,7 +28,12 @@ headA = ListNode(4)
 headB = ListNode(5)
 Intersect = ListNode(8, ListNode(4, ListNode(5)))
 headA.next = ListNode(1, Intersect)
-headB.next = ListNode(0, ListNode(1, Intersect))
+headB.next = ListNode(2, ListNode(6, ListNode(7)) )
 ob1 = Solution()
 op = ob1.getIntersectionNode(headA, headB)
-print("Intersection:",op.data)
+if op:
+    
+    print("Intersection:",op.data)
+    
+else:
+    print("no intersection")
