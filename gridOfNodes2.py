@@ -9,11 +9,22 @@ def gridOfNodes(grid):
     ans = 0
     last = 0
     for i in grid:
-        count = i.count(1)
+        count = i.count(1)      
         if count>0:
             ans = ans + last*count 
-            last =count
+            last =count     
     return ans
 
 
-print(gridOfNodes([[1,1,1],[0,1,0],[0,0,0],[1,1,0]]))
+#input
+"""[[1,1,1],
+    [1,1,0],
+    [0,0,0],
+    [1,0,0]]"""
+
+#output
+#6+2=8
+
+
+
+
