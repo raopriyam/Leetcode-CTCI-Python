@@ -1,4 +1,4 @@
 # Leetcode-Python
 adding the python leetcode problem solutions in this repositories. 
 The code files are here.
-all CTCI
+all CTCI problems solutions 
