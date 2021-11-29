@@ -18,7 +18,7 @@ class LinkedList:
  
         temp = self.head
  
-        while (temp):
+        while temp:
             print(temp.val)
             temp = temp.next
         print()
