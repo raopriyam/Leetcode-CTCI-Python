@@ -13,3 +13,4 @@ def isunique1(s):
             
 s = "Priyamrao"
 print(isunique1(s))
+
