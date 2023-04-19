@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov 10 23:15:37 2021
+Created on Tue Apr 18 22:21:20 2023
 
 @author: priya
 """
 
 def pattern(n):
     for i in range(n+1):
-        for j in range(i):
-            print("*",end ="")
-        print()
-
+        print("*"*i)
+        
 pattern(5)
-            
