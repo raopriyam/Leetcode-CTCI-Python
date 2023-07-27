@@ -1,20 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 27 22:41:14 2022
+Created on Wed Jul 26 18:53:33 2023
 
 @author: priya
 """
 
-def buildArray(nums):
-    """
-    :type nums: List[int]
-    :rtype: List[int]
-    """
-    ans = [0]*len(nums)
-    for i in range(len(nums)):
-        #ans.append(nums[i])
-        ans[i] = nums[nums[i]]
-        
-    return ans
+def buildArray2(nums):
+    leng = len(nums)
+    for i in range(leng):
+        nums.append(nums[nums[i]])
+    return nums[leng::]
 
-print(buildArray([[5,0,1,2,3,4]]))
+print(buildArray2([1,2,3,0,5,4,6,7]))
