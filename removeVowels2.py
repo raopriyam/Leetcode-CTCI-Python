@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov  7 21:24:48 2021
+Created on Tue Aug  1 20:05:02 2023
 
 @author: priya
 """
 
-def removeVowels2(s):
-    s1 = ""
-    set1 = {"a","A","e","E","i","I","o","O","u","U"}
-    for i in s:
-        if i not in set1:
-            s1 = s1 + i
-    return s1
+def removeVowels(s):
+    """
+    :type s: str
+    :rtype: str
+    """
+    set1 = {"a","e","i","o","u"}
+    leng = len(s)
+    for i in range(leng):
+        if s[i] not in set1:
+            s = s + s[i]
+    return s[leng:]
 
-print(removeVowels2("priyam"))
+
+print(removeVowels("mynameisPriyamRao"))
