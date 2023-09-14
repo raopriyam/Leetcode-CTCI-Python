@@ -49,6 +49,8 @@ class Solution(object):
 solutionObject = Solution()
 output = solutionObject.orangesRotting(grid = [[2,1,1],[1,1,0],[0,1,1]])
 
-print(output)  #use assert statement here to compare the expected output
+#use assert statement here to compare the expected output
+assert output == 4, "The test case doesn't pass. The output is not equals to expected output."
+print("the time required for oranges to become rotten is: ",output)  
 
 
