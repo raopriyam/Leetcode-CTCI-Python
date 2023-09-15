@@ -5,6 +5,11 @@ Created on Wed Sep 13 23:27:34 2023
 @author: priya
 """    
 
+class Node:
+    def __init__(self,val,neighbors):
+        self.val = val
+        self.neighbors = neighbors if neighbors is not None else []
+
 class Solution(object):
     def cloneGraph(self, node):
         """
