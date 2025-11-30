@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Nov 29 23:04:07 2025
+
+@author: priya
+"""
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+op = input("Choose operation (+, -, *, /): ")
+
+if op == "+":
+    print("Result:", a + b)
+elif op == "-":
+    print("Result:", a - b)
+elif op == "*":
+    print("Result:", a * b)
+elif op == "/":
+    if b != 0:
+        print("Result:", a / b)
+    else:
+        print("Cannot divide by zero!")
+else:
+    print("Invalid operation!")
