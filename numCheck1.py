@@ -7,7 +7,7 @@ Created on Wed Dec 17 23:49:09 2025
 
 def numCheck(n):
     if n < 0:
-        print("negative")
+        print("Negative")
     elif n > 0:
         print("Positive")
     else:
