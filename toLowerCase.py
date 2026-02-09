@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 20 23:09:51 2023
+Created on Sun Feb  8 20:12:31 2026
 
 @author: priya
 """
 
-def toLowerCase( s):
-    """
-    :type s: str
-    :rtype: str
-    """
+def toLowerCase(self, s: str) -> str:
     return s.lower()
-
-print(toLowerCase("Priyam Rao"))
+    
