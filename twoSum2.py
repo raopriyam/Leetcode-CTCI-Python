@@ -1,20 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov  5 23:07:10 2021
+Created on Tue Feb 17 21:29:18 2026
 
 @author: priya
 """
-
-def twoSum2(arr,target):
-    dict1 = {}
-    count = 1
-    i = 0
-    while arr[i] <= target:
-        if target-arr[i] in dict1:
-            return [dict1[target-arr[i]],count]
+def twoSum(self, nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
+    dictionary = {}
+    for i in range(len(nums)):
+        if (target - nums[i]) in dictionary:
+            return [i,dictionary[target - nums[i]]]
         else:
-            dict1[arr[i]] = count
-        count += 1
-        i += 1
-        
-print(twoSum2([2,7,11,15],9))
+            dictionary[nums[i]] = i
+
+    
+
+
+
